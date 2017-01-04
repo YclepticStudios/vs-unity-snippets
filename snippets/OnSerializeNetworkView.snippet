@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MonoBehaviour OnSerializeNetworkView</Title>
+      <Author>Eric Phillips</Author>
+      <Description>Used to customize synchronization of variables in a script watched by a network view.</Description>
+      <Shortcut>OnSerializeNetworkView_Documentation</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[/// <summary>
+/// Used to customize synchronization of variables in a script watched by a network view.
+/// </summary>
+/// <param name=\"stream\">The network bit stream.</param>
+/// <param name=\"info\">The network message information.</param>
+void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)
+{
+    $selected$ $end$
+}]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

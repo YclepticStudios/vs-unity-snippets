@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>MonoBehaviour OnAudioFilterRead</Title>
+      <Author>Eric Phillips</Author>
+      <Description>If OnAudioFilterRead is implemented, Unity will insert a custom filter into the audio DSP chain.</Description>
+      <Shortcut>OnAudioFilterRead_Documentation</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[/// <summary>
+/// If OnAudioFilterRead is implemented, Unity will insert a custom filter into the
+/// audio DSP chain.
+/// </summary>
+/// <param name=\"data\">An array of floats comprising the audio data.</param>
+/// <param name=\"channels\">An int that stores the number of channels
+///                        of audio data passed to this delegate.</param>
+void OnAudioFilterRead(float[] data, int channels)
+{
+    $selected$ $end$
+}]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
